@@ -1,15 +1,17 @@
-# AH - BookStore Django Rest API
+# Django Rest API with ManyToMany model relationship
 
-### Requirements 
+### Requirements
 - Python3
-- Pipenv
+- Django
 
 ### To run code on your local machine:
 
 - clone repository
-- change directory into `ah_bk_django_rest_api`
+- cd into 'django_REST' 
 - run `pipenv shell`
 - run `pipenv install`
-- change directory into `bookstore_app`
+- run `python manage.py makemigrations`
 - run `python manage.py migrate`
 - run `python manage.py runserver`
+
+For list of cURL requests refer `cURL_requests_doc`
