@@ -7,7 +7,7 @@
 ### To run code on your local machine:
 
 - clone repository
-- cd into 'django_REST' 
+- cd into 'Django_REST_API' 
 - run `pipenv shell`
 - run `pipenv install`
 - run `python manage.py makemigrations`
